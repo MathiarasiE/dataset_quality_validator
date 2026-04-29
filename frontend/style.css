@@ -1,0 +1,25 @@
+:root{--bg:#0b1220;--card:#0f1724;--accent:#38bdf8;--muted:#94a3b8}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071028,#0b1220);color:#e6eef6}
+.container{max-width:880px;margin:36px auto;padding:20px}
+h1{font-size:1.6rem;color:var(--accent);margin-bottom:18px}
+h3{font-size:0.95rem;color:var(--accent);margin-bottom:12px}
+.card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);margin-bottom:16px}
+.upload-card input[type=file]{display:block;margin:10px 0}
+.upload-card small{display:block;color:#94a3b8;font-size:0.8rem;margin:6px 0 10px}
+#labelCol{width:100%;padding:8px;margin:8px 0;border-radius:6px;border:1px solid #213043;background:#071124;color:#e6eef6}
+#uploadBtn{background:var(--accent);border:0;padding:10px 14px;border-radius:8px;color:#04202c;font-weight:700;cursor:pointer;transition:0.3s}
+#uploadBtn:hover{opacity:0.9}
+#uploadBtn:disabled{opacity:0.6;cursor:not-allowed}
+.result-card{display:flex;flex-direction:column;gap:12px}
+.score-block{display:flex;align-items:center;gap:16px}
+.score{font-size:3rem;font-weight:900;color:#22c55e}
+.status{padding:6px 12px;border-radius:999px;background:#334155;color:#fff;font-weight:700}
+.charts-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.chart-container{background:#0b1220;padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.05)}
+.chart-container canvas{max-height:280px}
+.issues{font-size:0.95rem;color:var(--muted);margin:12px 0}
+.issues > div{margin-bottom:12px;padding:10px;background:rgba(255,255,255,0.05);border-radius:6px}
+.report-link{display:inline-block;margin-top:8px;color:var(--accent);text-decoration:none;font-weight:700}
+.hidden{display:none}
+.footer{color:var(--muted);font-size:0.85rem;margin-top:12px}

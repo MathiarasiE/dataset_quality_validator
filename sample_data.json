@@ -1,0 +1,10 @@
+[
+  {"age": 25, "income": 50000, "country": "USA", "score": 0},
+  {"age": 30, "income": 60000, "country": "UK", "score": 1},
+  {"age": 35, "income": 70000, "country": "CA", "score": 0},
+  {"age": 40, "income": 80000, "country": "AU", "score": 1},
+  {"age": 45, "income": 90000, "country": "NZ", "score": 0},
+  {"age": 50, "income": 100000, "country": "USA", "score": 1},
+  {"age": 28, "income": 55000, "country": "UK", "score": 0},
+  {"age": 32, "income": 65000, "country": "CA", "score": 1}
+]

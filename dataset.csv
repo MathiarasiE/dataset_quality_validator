@@ -1,0 +1,50 @@
+age,income,education,job_category,credit_score,label
+25,45000,Bachelor,Tech,720,good
+34,82000,Master,Finance,780,good
+28,38000,Bachelor,Retail,640,bad
+45,120000,PhD,Tech,820,good
+23,32000,High School,Retail,580,bad
+56,95000,Master,Finance,760,good
+31,55000,Bachelor,Tech,700,good
+,67000,Master,Finance,740,good
+38,48000,Bachelor,Retail,660,bad
+29,39000,High School,Retail,590,bad
+42,105000,PhD,Tech,810,good
+27,42000,Bachelor,Tech,690,good
+35,72000,Master,Finance,770,good
+50,88000,Master,Finance,750,good
+24,31000,High School,Retail,570,bad
+33,61000,Bachelor,Tech,710,good
+48,115000,PhD,Tech,830,good
+26,43000,Bachelor,Retail,650,bad
+39,78000,Master,Finance,760,good
+41,92000,Master,Finance,790,good
+28,36000,High School,Retail,600,bad
+36,68000,Bachelor,Tech,720,good
+1000,45000,Bachelor,Tech,720,good
+25,45000,Bachelor,Tech,720,good
+55,98000,PhD,Finance,800,good
+30,52000,Bachelor,Tech,695,good
+,44000,Bachelor,Retail,,bad
+37,76000,Master,Finance,765,good
+43,110000,PhD,Tech,825,good
+22,28000,High School,Retail,555,bad
+29,41000,Bachelor,Tech,680,good
+46,89000,Master,Finance,755,good
+32,58000,Bachelor,Tech,715,good
+25,45000,Bachelor,Tech,720,good
+38,73000,Master,Finance,775,good
+-999,82000,Bachelor,Finance,740,bad
+27,40000,Bachelor,Retail,645,bad
+49,118000,PhD,Tech,835,good
+24,33000,High School,Retail,575,bad
+35,65000,Bachelor,Tech,705,good
+40,95000,Master,Finance,785,good
+26,37000,Bachelor,Retail,635,bad
+53,102000,PhD,Finance,805,good
+31,54000,Bachelor,Tech,700,good
+28,38000,Bachelor,Retail,640,bad
+44,108000,PhD,Tech,820,good
+23,30000,High School,Retail,565,bad
+36,70000,Master,Finance,770,good
+41,88000,Master,Finance,788,good

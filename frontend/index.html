@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Auto Dataset Quality Validator</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Auto Dataset Quality Validator</h1>
+
+      <div class="card upload-card">
+        <label class="file-label">Select dataset file</label>
+        <input id="fileInput" type="file" accept=".csv,.json,.jsonl,.parquet,.xlsx,.xls" />
+        <small>Supported: CSV, JSON, JSONL, Parquet, Excel</small>
+        <input id="labelCol" placeholder="Optional: label column name" />
+        <button id="uploadBtn">Run Validation</button>
+      </div>
+
+      <div id="result" class="card result-card hidden">
+        <div class="score-block">
+          <div id="scoreValue" class="score">--</div>
+          <div id="scoreStatus" class="status">--</div>
+        </div>
+        <div id="summary" class="summary"></div>
+        
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Score Deduction Breakdown</h3>
+            <canvas id="deductionChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Severity Distribution</h3>
+            <canvas id="severityChart"></canvas>
+          </div>
+        </div>
+
+        <div id="issues" class="issues"></div>
+        <a id="reportLink" href="#" target="_blank" class="report-link">Open full HTML report</a>
+      </div>
+
+      <footer class="footer">Built with ❤️ — Upload CSVs for quick validation</footer>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
